@@ -1,0 +1,11 @@
+# Create by Guoqiang, for ubuntu 1604
+deb https://mirrors.ccut.edu.cn/repository/ubuntu xenial main restricted
+deb https://mirrors.ccut.edu.cn/repository/ubuntu xenial-updates main restricted
+deb https://mirrors.ccut.edu.cn/repository/ubuntu xenial universe
+deb https://mirrors.ccut.edu.cn/repository/ubuntu xenial-updates universe
+deb https://mirrors.ccut.edu.cn/repository/ubuntu xenial multiverse
+deb https://mirrors.ccut.edu.cn/repository/ubuntu xenial-updates multiverse
+deb https://mirrors.ccut.edu.cn/repository/ubuntu xenial-backports main restricted universe multiverse
+deb https://mirrors.ccut.edu.cn/repository/ubuntu xenial-security main restricted
+deb https://mirrors.ccut.edu.cn/repository/ubuntu xenial-security universe
+deb https://mirrors.ccut.edu.cn/repository/ubuntu xenial-security multiverse

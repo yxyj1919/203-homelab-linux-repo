@@ -1,0 +1,85 @@
+[mysql-connectors-community]
+name=MySQL Connectors Community
+baseurl=https://mirrors.ccut.edu.cn/repository/mysql/mysql-connectors-community/el/7/$basearch/
+enabled=1
+gpgcheck=0
+
+[mysql-tools-community]
+name=MySQL Tools Community
+baseurl=https://mirrors.ccut.edu.cn/repository/mysql/mysql-tools-community/el/7/$basearch/
+enabled=1
+gpgcheck=0
+
+# Enable to use MySQL 5.5
+[mysql55-community]
+name=MySQL 5.5 Community Server
+baseurl=https://mirrors.ccut.edu.cn/repository/mysql/mysql-5.5-community/el/7/$basearch/
+enabled=0
+gpgcheck=0
+
+# Enable to use MySQL 5.6
+[mysql56-community]
+name=MySQL 5.6 Community Server
+baseurl=https://mirrors.ccut.edu.cn/repository/mysql/mysql-5.6-community/el/7/$basearch/
+enabled=0
+gpgcheck=0
+
+[mysql57-community]
+name=MySQL 5.7 Community Server
+baseurl=https://mirrors.ccut.edu.cn/repository/mysql/mysql-5.7-community/el/7/$basearch/
+enabled=1
+gpgcheck=0
+
+[mysql80-community]
+name=MySQL 8.0 Community Server
+baseurl=https://mirrors.ccut.edu.cn/repository/mysql/mysql-8.0-community/el/7/$basearch/
+enabled=0
+gpgcheck=0
+
+[mysql-tools-preview]
+name=MySQL Tools Preview
+baseurl=https://mirrors.ccut.edu.cn/repository/mysql/mysql-tools-preview/el/7/$basearch/
+enabled=0
+gpgcheck=0
+
+[mysql-connectors-community-source]
+name=MySQL Connectors Community - Source
+baseurl=https://mirrors.ccut.edu.cn/repository/mysql/mysql-connectors-community/el/7/SRPMS
+enabled=0
+gpgcheck=0
+
+[mysql-tools-community-source]
+name=MySQL Tools Community - Source
+baseurl=https://mirrors.ccut.edu.cn/repository/mysql/mysql-tools-community/el/7/SRPMS
+enabled=0
+gpgcheck=0
+
+[mysql55-community-source]
+name=MySQL 5.5 Community Server - Source
+baseurl=https://mirrors.ccut.edu.cn/repository/mysql/mysql-5.5-community/el/7/SRPMS
+enabled=0
+gpgcheck=0
+
+[mysql56-community-source]
+name=MySQL 5.6 Community Server - Source
+baseurl=https://mirrors.ccut.edu.cn/repository/mysql/mysql-5.6-community/el/7/SRPMS
+enabled=0
+gpgcheck=0
+
+[mysql57-community-source]
+name=MySQL 5.7 Community Server - Source
+baseurl=https://mirrors.ccut.edu.cn/repository/mysql/mysql-5.7-community/el/7/SRPMS
+enabled=0
+gpgcheck=0
+
+[mysql80-community-source]
+name=MySQL 8.0 Community Server - Source
+baseurl=https://mirrors.ccut.edu.cn/repository/mysql/mysql-8.0-community/el/7/SRPMS
+enabled=0
+gpgcheck=0
+
+[mysql-tools-preview-source]
+name=MySQL Tools Preview - Source
+baseurl=https://mirrors.ccut.edu.cn/repository/mysql/mysql-tools-preview/el/7/SRPMS
+enabled=0
+gpgcheck=0

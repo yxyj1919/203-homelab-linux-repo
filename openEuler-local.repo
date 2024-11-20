@@ -1,0 +1,57 @@
+#generic-repos is licensed under the Mulan PSL v2.
+#You can use this software according to the terms and conditions of the Mulan PSL v2.
+#You may obtain a copy of Mulan PSL v2 at:
+#    http://license.coscl.org.cn/MulanPSL2
+#THIS SOFTWARE IS PROVIDED ON AN "AS IS" BASIS, WITHOUT WARRANTIES OF ANY KIND, EITHER EXPRESS OR
+#IMPLIED, INCLUDING BUT NOT LIMITED TO NON-INFRINGEMENT, MERCHANTABILITY OR FIT FOR A PARTICULAR
+#PURPOSE.
+#See the Mulan PSL v2 for more details.
+
+[Local-OS]
+name=local-OS
+baseurl=https://mirrors.ccut.edu.cn/repository/openEuler-24.03-LTS/OS/$basearch/
+enabled=1
+gpgcheck=0
+gpgkey=https://mirrors.ccut.edu.cn/repository/openEuler-24.03-LTS/OS/$basearch/RPM-GPG-KEY-openEuler
+
+[Local-everything]
+name=local-everything
+baseurl=https://mirrors.ccut.edu.cn/repository/openEuler-24.03-LTS/everything/$basearch/
+enabled=1
+gpgcheck=0
+gpgkey=https://mirrors.ccut.edu.cn/repository/openEuler-24.03-LTS/everything/$basearch/RPM-GPG-KEY-openEuler
+
+[Local-EPOL]
+name=local-EPOL
+baseurl=https://mirrors.ccut.edu.cn/repository/openEuler-24.03-LTS/EPOL/main/$basearch/
+enabled=1
+gpgcheck=0
+gpgkey=https://mirrors.ccut.edu.cn/repository/openEuler-24.03-LTS/OS/$basearch/RPM-GPG-KEY-openEuler
+
+[Local-debuginfo]
+name=local-debuginfo
+baseurl=https://mirrors.ccut.edu.cn/repository/openEuler-24.03-LTS/debuginfo/$basearch/
+enabled=1
+gpgcheck=0
+gpgkey=https://mirrors.ccut.edu.cn/repository/openEuler-24.03-LTS/debuginfo/$basearch/RPM-GPG-KEY-openEuler
+
+[Local-source]
+name=local-source
+baseurl=https://mirrors.ccut.edu.cn/repository/openEuler-24.03-LTS/source/
+enabled=1
+gpgcheck=0
+gpgkey=https://mirrors.ccut.edu.cn/repository/openEuler-24.03-LTS/source/RPM-GPG-KEY-openEuler
+
+[Local-update]
+name=local-update
+baseurl=https://mirrors.ccut.edu.cn/repository/openEuler-24.03-LTS/update/$basearch/
+enabled=1
+gpgcheck=0
+gpgkey=https://mirrors.ccut.edu.cn/repository/openEuler-24.03-LTS/OS/$basearch/RPM-GPG-KEY-openEuler
+
+[Local-update-source]
+name=local-update-source
+baseurl=https://mirrors.ccut.edu.cn/repository/openEuler-24.03-LTS/update/source/
+enabled=1
+gpgcheck=0
+gpgkey=https://mirrors.ccut.edu.cn/repository/openEuler-24.03-LTS/source/RPM-GPG-KEY-openEuler

@@ -1,0 +1,15 @@
+[prometheus-rpm_release]
+name=prometheus-rpm_release
+baseurl=https://mirrors.ccut.edu.cn/repository/prometheus-rpm/release/el/$releasever/$basearch
+repo_gpgcheck=0
+gpgcheck=0
+enabled=1
+metadata_expire=300
+
+[prometheus-rpm_release-source]
+name=prometheus-rpm_release-source
+baseurl=https://mirrors.ccut.edu.cn/repository/prometheus-rpm/release/el/$releasever/SRPMS
+repo_gpgcheck=0
+gpgcheck=0
+enabled=1
+metadata_expire=300

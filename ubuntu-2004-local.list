@@ -1,0 +1,11 @@
+# Create by Guoqiang , for ubuntu 2004
+deb https://mirrors.bzz.ccut.edu.cn/repository/ubuntu/ focal main restricted
+deb https://mirrors.bzz.ccut.edu.cn/repository/ubuntu/ focal-updates main restricted
+deb https://mirrors.bzz.ccut.edu.cn/repository/ubuntu/ focal universe
+deb https://mirrors.bzz.ccut.edu.cn/repository/ubuntu/ focal-updates universe
+deb https://mirrors.bzz.ccut.edu.cn/repository/ubuntu/ focal multiverse
+deb https://mirrors.bzz.ccut.edu.cn/repository/ubuntu/ focal-updates multiverse
+deb https://mirrors.bzz.ccut.edu.cn/repository/ubuntu/ focal-backports main restricted universe multiverse
+deb https://mirrors.bzz.ccut.edu.cn/repository/ubuntu/ focal-security main restricted
+deb https://mirrors.bzz.ccut.edu.cn/repository/ubuntu/ focal-security universe
+deb https://mirrors.bzz.ccut.edu.cn/repository/ubuntu/ focal-security multiverse

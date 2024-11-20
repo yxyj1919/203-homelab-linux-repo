@@ -1,0 +1,11 @@
+# Create by Guoqiang , for ubuntu 2204
+deb https://mirrors.bzz.ccut.edu.cn/repository/ubuntu/ jammy main restricted
+deb https://mirrors.bzz.ccut.edu.cn/repository/ubuntu/ jammy-updates main restricted
+deb https://mirrors.bzz.ccut.edu.cn/repository/ubuntu/ jammy universe
+deb https://mirrors.bzz.ccut.edu.cn/repository/ubuntu/ jammy-updates universe
+deb https://mirrors.bzz.ccut.edu.cn/repository/ubuntu/ jammy multiverse
+deb https://mirrors.bzz.ccut.edu.cn/repository/ubuntu/ jammy-updates multiverse
+deb https://mirrors.bzz.ccut.edu.cn/repository/ubuntu/ jammy-backports main restricted universe multiverse
+deb https://mirrors.bzz.ccut.edu.cn/repository/ubuntu/ jammy-security main restricted
+deb https://mirrors.bzz.ccut.edu.cn/repository/ubuntu/ jammy-security universe
+deb https://mirrors.bzz.ccut.edu.cn/repository/ubuntu/ jammy-security multiverse

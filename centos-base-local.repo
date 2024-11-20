@@ -1,0 +1,31 @@
+[base]
+name=CentOS-$releasever - Base - mirrors.ccut.edu.cn
+failovermethod=priority
+baseurl=https://mirrors.ccut.edu.cn/repository/centos/$releasever/os/$basearch/
+gpgcheck=0
+enabled=1
+
+#released updates
+[updates]
+name=CentOS-$releasever - Updates - mirrors.ccut.edu.cn
+failovermethod=priority
+baseurl=https://mirrors.ccut.edu.cn/repository/centos/$releasever/updates/$basearch/
+gpgcheck=0
+enabled=1
+
+#additional packages that may be useful
+[extras]
+name=CentOS-$releasever - Extras - mirrors.ccut.edu.cn
+failovermethod=priority
+baseurl=https://mirrors.ccut.edu.cn/repository/centos/$releasever/extras/$basearch/
+gpgcheck=0
+enabled=1
+
+#additional packages that extend functionality of existing packages
+[centosplus]
+name=CentOS-$releasever - Plus - mirrors.ccut.edu.cn
+failovermethod=priority
+baseurl=https://mirrors.ccut.edu.cn/repository/centos/$releasever/centosplus/$basearch/
+gpgcheck=0
+enabled=1
+

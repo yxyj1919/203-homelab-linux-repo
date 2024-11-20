@@ -1,0 +1,11 @@
+# Create by Guoqiang , for ubuntu 1804
+deb https://mirrors.ccut.edu.cn/repository/ubuntu/ bionic main restricted
+deb https://mirrors.ccut.edu.cn/repository/ubuntu/ bionic-updates main restricted
+deb https://mirrors.ccut.edu.cn/repository/ubuntu/ bionic universe
+deb https://mirrors.ccut.edu.cn/repository/ubuntu/ bionic-updates universe
+deb https://mirrors.ccut.edu.cn/repository/ubuntu/ bionic multiverse
+deb https://mirrors.ccut.edu.cn/repository/ubuntu/ bionic-updates multiverse
+deb https://mirrors.ccut.edu.cn/repository/ubuntu/ bionic-backports main restricted universe multiverse
+deb https://mirrors.ccut.edu.cn/repository/ubuntu/ bionic-security main restricted
+deb https://mirrors.ccut.edu.cn/repository/ubuntu/ bionic-security universe
+deb https://mirrors.ccut.edu.cn/repository/ubuntu/ bionic-security multiverse

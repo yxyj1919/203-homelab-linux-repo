@@ -1,0 +1,11 @@
+# Create by Guoqiang , for ubuntu 1904
+deb https://mirrors.ccut.edu.cn/repository/ubuntu/ disco main restricted
+deb https://mirrors.ccut.edu.cn/repository/ubuntu/ disco-updates main restricted
+deb https://mirrors.ccut.edu.cn/repository/ubuntu/ disco universe
+deb https://mirrors.ccut.edu.cn/repository/ubuntu/ disco-updates universe
+deb https://mirrors.ccut.edu.cn/repository/ubuntu/ disco multiverse
+deb https://mirrors.ccut.edu.cn/repository/ubuntu/ disco-updates multiverse
+deb https://mirrors.ccut.edu.cn/repository/ubuntu/ disco-backports main restricted universe multiverse
+deb https://mirrors.ccut.edu.cn/repository/ubuntu/ disco-security main restricted
+deb https://mirrors.ccut.edu.cn/repository/ubuntu/ disco-security universe
+deb https://mirrors.ccut.edu.cn/repository/ubuntu/ disco-security multiverse

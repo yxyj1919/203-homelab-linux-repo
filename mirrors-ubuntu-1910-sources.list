@@ -1,0 +1,11 @@
+# Create by Guoqiang , for ubuntu 1910
+deb https://mirrors.ccut.edu.cn/repository/ubuntu/ eoan main restricted
+deb https://mirrors.ccut.edu.cn/repository/ubuntu/ eoan-updates main restricted
+deb https://mirrors.ccut.edu.cn/repository/ubuntu/ eoan universe
+deb https://mirrors.ccut.edu.cn/repository/ubuntu/ eoan-updates universe
+deb https://mirrors.ccut.edu.cn/repository/ubuntu/ eoan multiverse
+deb https://mirrors.ccut.edu.cn/repository/ubuntu/ eoan-updates multiverse
+deb https://mirrors.ccut.edu.cn/repository/ubuntu/ eoan-backports main restricted universe multiverse
+deb https://mirrors.ccut.edu.cn/repository/ubuntu/ eoan-security main restricted
+deb https://mirrors.ccut.edu.cn/repository/ubuntu/ eoan-security universe
+deb https://mirrors.ccut.edu.cn/repository/ubuntu/ eoan-security multiverse

@@ -1,0 +1,7 @@
+[local-influxdata]
+name = InfluxData Repository - Stable
+baseurl = https://mirrors.ccut.edu.cn/repository/influxdata/stable/$basearch/main
+enabled = 1
+gpgcheck = 0
+gpgkey = https://repos.influxdata.com/influxdata-archive_compat.key
+

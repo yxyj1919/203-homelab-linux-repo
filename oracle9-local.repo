@@ -1,0 +1,103 @@
+[local-ol9_baseos_latest]
+name=Oracle Linux 9 BaseOS Latest ($basearch)
+baseurl=https://mirrors.ccut.edu.cn/repository/OracleLinux/OL9/baseos/latest/$basearch/
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-oracle
+gpgcheck=1
+enabled=1
+
+[local-ol9_appstream]
+name=Oracle Linux 9 Application Stream Packages ($basearch)
+baseurl=https://mirrors.ccut.edu.cn/repository/OracleLinux/OL9/appstream/$basearch/
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-oracle
+gpgcheck=1
+enabled=1
+
+[local-ol9_u0_baseos_base]
+name=Oracle Linux 9 BaseOS GA ($basearch)
+baseurl=https://mirrors.ccut.edu.cn/repository/OracleLinux/OL9/0/baseos/base/$basearch/
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-oracle
+gpgcheck=1
+enabled=0
+
+[local-ol9_u1_baseos_base]
+name=Oracle Linux 9.1 BaseOS ($basearch)
+baseurl=https://mirrors.ccut.edu.cn/repository/OracleLinux/OL9/1/baseos/base/$basearch/
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-oracle
+gpgcheck=1
+enabled=0
+
+[local-ol9_u2_baseos_base]
+name=Oracle Linux 9.2 BaseOS ($basearch)
+baseurl=https://mirrors.ccut.edu.cn/repository/OracleLinux/OL9/2/baseos/base/$basearch/
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-oracle
+gpgcheck=1
+enabled=0
+
+[local-ol9_u3_baseos_base]
+name=Oracle Linux 9.3 BaseOS ($basearch)
+baseurl=https://mirrors.ccut.edu.cn/repository/OracleLinux/OL9/3/baseos/base/$basearch/
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-oracle
+gpgcheck=1
+enabled=0
+
+[local-ol9_addons]
+name=Oracle Linux 9 Addons ($basearch)
+baseurl=https://mirrors.ccut.edu.cn/repository/OracleLinux/OL9/addons/$basearch/
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-oracle
+gpgcheck=1
+enabled=0
+
+[local-ol9_codeready_builder]
+name=Oracle Linux 9 CodeReady Builder ($basearch) - (Unsupported)
+baseurl=https://mirrors.ccut.edu.cn/repository/OracleLinux/OL9/codeready/builder/$basearch/
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-oracle
+gpgcheck=1
+enabled=0
+
+[local-ol9_distro_builder]
+name=Oracle Linux 9 Distro Builder ($basearch) - (Unsupported)
+baseurl=https://mirrors.ccut.edu.cn/repository/OracleLinux/OL9/distro/builder/$basearch/
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-oracle
+gpgcheck=1
+enabled=0
+
+[local-ol9_MODRHCK]
+name=Latest RHCK with fixes from Oracle for Oracle Linux $releasever ($basearch)
+baseurl=https://mirrors.ccut.edu.cn/repository/OracleLinux/OL9/MODRHCK/$basearch/
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-oracle
+gpgcheck=1
+priority=20
+enabled=0
+
+
+[local-ol9_UEKR7]
+name=Oracle Linux 9 UEK Release 7 ($basearch)
+baseurl=https://mirrors.ccut.edu.cn/repository/OracleLinux/OL9/UEKR7/$basearch/
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-oracle
+gpgcheck=1
+enabled=1
+
+[local-ol9_RDMA]
+name=Oracle Linux 9 ($basearch) RDMA
+baseurl=https://mirrors.ccut.edu.cn/repository/OracleLinux/OL9/RDMA/$basearch/
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-oracle
+gpgcheck=1
+enabled=0
+
+[local-ol9_kvm_utils]
+name=Oracle Linux 9 KVM Utilities ($basearch)
+baseurl=https://mirrors.ccut.edu.cn/repository/OracleLinux/OL9/kvm/utils/$basearch/
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-oracle
+gpgcheck=1
+priority=10
+enabled=0
+
+[local-ol9_developer_EPEL]
+name=Oracle Linux $releasever EPEL Packages for Development ($basearch)
+baseurl=https://mirrors.ccut.edu.cn/repository/OracleLinux/OL9/developer/EPEL/$basearch/
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-oracle
+gpgcheck=1
+enabled=1
+
+
+
