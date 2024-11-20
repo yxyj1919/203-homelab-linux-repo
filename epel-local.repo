@@ -1,19 +1,19 @@
 [local-epel]
 name=Extra Packages for Enterprise Linux $releasever - $basearch
-baseurl=https://mirrors.ccut.edu.cn/repository/epel/$releasever/Everything/$basearch/
+baseurl=https://mirrors.changw.xyz/repository/epel/$releasever/Everything/$basearch/
 enabled=1
 gpgcheck=0
 countme=1
 
 [local-epel-debuginfo]
 name=Extra Packages for Enterprise Linux $releasever - $basearch - Debug
-baseurl=https://mirrors.ccut.edu.cn/repository/epel/$releasever/Everything/$basearch/debug/
+baseurl=https://mirrors.changw.xyz/repository/epel/$releasever/Everything/$basearch/debug/
 enabled=0
 gpgcheck=0
 
 [local-epel-source]
 name=Extra Packages for Enterprise Linux $releasever - $basearch - Source
-baseurl=https://mirrors.ccut.edu.cn/repository/epel/$releasever/Everything/source/tree/
+baseurl=https://mirrors.changw.xyz/repository/epel/$releasever/Everything/source/tree/
 enabled=0
 gpgcheck=0
 
