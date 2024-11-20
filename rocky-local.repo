@@ -1,0 +1,121 @@
+[local-baseos]
+name=Rocky Linux $releasever - BaseOS
+baseurl=https://mirrors.changw.xyz/repository/rocky/$releasever/BaseOS/$basearch/os/
+gpgcheck=0
+enabled=1
+countme=1
+metadata_expire=6h
+
+[local-baseos-debug]
+name=Rocky Linux $releasever - BaseOS - Debug
+baseurl=https://mirrors.changw.xyz/repository/rocky/$releasever/BaseOS/$basearch/debug/tree/
+gpgcheck=0
+enabled=0
+metadata_expire=6h
+
+[local-baseos-source]
+name=Rocky Linux $releasever - BaseOS - Source
+baseurl=https://mirrors.changw.xyz/repository/rocky/$releasever/BaseOS/source/tree/
+gpgcheck=0
+enabled=0
+metadata_expire=6h
+
+[local-appstream]
+name=Rocky Linux $releasever - AppStream
+baseurl=https://mirrors.changw.xyz/repository/rocky/$releasever/AppStream/$basearch/os/
+gpgcheck=0
+enabled=1
+countme=1
+metadata_expire=6h
+
+[local-appstream-debug]
+name=Rocky Linux $releasever - AppStream - Debug
+baseurl=https://mirrors.changw.xyz/repository/rocky/$releasever/AppStream/$basearch/debug/tree/
+gpgcheck=0
+enabled=0
+metadata_expire=6h
+
+[local-appstream-source]
+name=Rocky Linux $releasever - AppStream - Source
+baseurl=https://mirrors.changw.xyz/repository/rocky/$releasever/AppStream/source/tree/
+gpgcheck=0
+enabled=0
+metadata_expire=6h
+
+[local-crb]
+name=Rocky Linux $releasever - CRB
+baseurl=https://mirrors.changw.xyz/repository/rocky/$releasever/CRB/$basearch/os/
+gpgcheck=0
+enabled=0
+countme=1
+metadata_expire=6h
+
+[local-crb-debug]
+name=Rocky Linux $releasever - CRB - Debug
+baseurl=https://mirrors.changw.xyz/repository/rocky/$releasever/CRB/$basearch/debug/tree/
+gpgcheck=0
+enabled=0
+metadata_expire=6h
+
+[local-crb-source]
+name=Rocky Linux $releasever - CRB - Source
+baseurl=https://mirrors.changw.xyz/repository/rocky/$releasever/CRB/source/tree/
+gpgcheck=0
+enabled=0
+metadata_expire=6h
+
+[local-extras]
+name=Rocky Linux $releasever - Extras
+baseurl=https://mirrors.changw.xyz/repository/rocky/$releasever/extras/$basearch/os/
+gpgcheck=0
+enabled=1
+countme=1
+metadata_expire=6h
+
+[local-devel]
+name=Rocky Linux $releasever - Devel WARNING! FOR BUILDROOT AND KOJI USE
+baseurl=https://mirrors.changw.xyz/repository/rocky/$releasever/devel/$basearch/os/
+gpgcheck=0
+enabled=0
+countme=1
+
+metadata_expire=6h
+[local-baseos-debuginfo]
+name=Rocky Linux $releasever - BaseOS - Source
+baseurl=https://mirrors.changw.xyz/repository/rocky/$releasever/BaseOS/$basearch/debug/tree/
+gpgcheck=0
+enabled=0
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-rockyofficial
+metadata_expire=6h
+
+[local-appstream-debuginfo]
+name=Rocky Linux $releasever - AppStream - Source
+baseurl=https://mirrors.changw.xyz/repository/rocky/$releasever/AppStream/$basearch/debug/tree/
+gpgcheck=0
+enabled=0
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-rockyofficial
+metadata_expire=6h
+
+[local-ha-debuginfo]
+name=Rocky Linux $releasever - High Availability - Source
+baseurl=https://mirrors.changw.xyz/repository/rocky/$releasever/HighAvailability/$basearch/debug/tree/
+gpgcheck=0
+enabled=0
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-rockyofficial
+metadata_expire=6h
+
+[local-powertools-debuginfo]
+name=Rocky Linux $releasever - PowerTools - Source
+baseurl=https://mirrors.changw.xyz/repository/rocky/$releasever/PowerTools/$basearch/debug/tree/
+gpgcheck=0
+enabled=0
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-rockyofficial
+metadata_expire=6h
+
+[local-resilient-storage-debuginfo]
+name=Rocky Linux $releasever - Resilient Storage - Source
+baseurl=https://mirrors.changw.xyz/repository/rocky/$releasever/ResilientStorage/$basearch/debug/tree/
+gpgcheck=0
+enabled=0
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-rockyofficial
+metadata_expire=6h
