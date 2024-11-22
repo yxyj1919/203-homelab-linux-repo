@@ -1,6 +1,5 @@
-[kubernetes]
+[local-kubernetes]
 name=Kubernetes
-baseurl=https://mirrors.ccut.edu.cn/repository/google/kubernetes-el7-$basearch
+baseurl=http://mirrors.aliyun.com/kubernetes/yum/repos/kubernetes-el7-$basearch
 enabled=1
 gpgcheck=0
-
